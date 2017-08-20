@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #F3F5F5;
     width: 100%;
 }
 
@@ -109,6 +109,7 @@ nav span {
     font-size: 2.5rem;
     font-weight: bold;
     line-height: 1.1;
+    width: 70%;
 }
 
 .main-banner-content h3 {
@@ -130,7 +131,7 @@ nav span {
     width: 40%;
     flex-direction: column;
     text-align: left;
-    border-left: 1px solid #D8D8D8;
+   
 }
 
 .feature-column {
@@ -150,7 +151,6 @@ nav span {
 }
 
 #first-block {
-    border-bottom: 1px solid #D8D8D8;
     margin-bottom: 2px;
 }
 
@@ -217,10 +217,11 @@ nav span {
     background-color: #D8D8D8;
     margin: auto;
     text-align: center;
-    padding: 2rem 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
-.learning-items h1 {
+.titles h1 {
     font-size: 2rem;
     font-weight: 900;
     line-height: 1.1;
@@ -269,6 +270,30 @@ nav span {
 }
 
 
+/*Video section */
 
 
 
+.video-items {
+    width: 100%;
+    background-color: #F3F5F5;
+    margin: auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.main-banner-image video {
+    width: 100%;
+    height: 100%;
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 1rem 1rem 2rem 1.5rem;
+    border-top: 1px solid #D8D8D8;
+}
