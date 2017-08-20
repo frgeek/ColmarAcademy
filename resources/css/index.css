@@ -186,6 +186,10 @@ nav span {
     justify-content: center;
 }
 
+#feature-content-left {
+    width: 60%;
+}
+
 .feature-content h2 {
     color: #4A4A4A;
     font-size: 1.25rem;
@@ -201,5 +205,70 @@ nav span {
     text-decoration: none;
     color: #5194E3;
 }
+
+#container {
+    padding-bottom: 0;
+}
+
+/* Learning section */
+
+.learning-items {
+    width: 100%;
+    background-color: #D8D8D8;
+    margin: auto;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.learning-items h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1.1;
+    padding-bottom: 2rem;
+}
+
+.flex-container-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 4.5rem;
+    justify-content: center;
+}
+
+.items {
+    margin: 16px;
+    text-align: left;
+    vertical-align: middle;
+    display: flex;
+}
+
+.items img {
+    height: auto;
+    width: 300px;
+}
+
+.items h2 {
+    padding: 1rem .5rem 0rem 1rem;
+    font-weight: bold;
+    display: block;
+    font-size: 1.2rem;
+}
+
+.items span {
+    font-size: 0.9rem;
+    display: block;
+    padding-top: .5rem;
+    padding-left: 1rem;
+    color: #767676;
+}
+
+
+
+.items-description {
+    background-color: white;
+    width: 300px;
+}
+
+
+
 
 
